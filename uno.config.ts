@@ -54,7 +54,7 @@ export default defineConfig({
   ],
   shortcuts: {
     'uno-desktop-column': 'fixed right-[max(5rem,calc(50vw-35rem))] w-14rem',
-    'uno-decorative-line': 'mb-4.5 h-0.25 w-10 bg-secondary/25 lg:(mb-6 w-11)',
+    'uno-decorative-line': 'h-0.25 bg-secondary/25',
     'uno-round-border': 'border border-secondary/5 rounded border-solid',
   },
   variants: [

@@ -28,8 +28,7 @@ export interface Props {
 
     return (
       <li
-        class="mb-5.5"
-        lg={isHome ? 'mb-10' : ''}
+        class="mb-10 lg:mb-20"
       >
         {/* post title */}
         <h3 class="inline transition-colors hover:c-primary">
@@ -52,20 +51,12 @@ export interface Props {
           )}
         </h3>
 
-        {/* mobile post time */}
+        {/* post time */}
         <div
-          class="py-0.8 text-3.5 font-time lg:hidden"
+          class="my-2 block text-3.5 text-secondary/50 font-sans lg:text-3.65"
           transition:name={`time-${slug}${lang ? `-${lang}` : ''}`}
           data-disable-theme-transition
         >
-          <PostDate
-            date={post.data.published}
-            minutes={post.remarkPluginFrontmatter.minutes}
-          />
-        </div>
-
-        {/* desktop post time */}
-        <div class="hidden text-3.65 font-time lg:(ml-2.5 inline)">
           <PostDate
             date={post.data.published}
             minutes={post.remarkPluginFrontmatter.minutes}
@@ -76,7 +67,7 @@ export interface Props {
         {isHome && (
           <div
             class="heti hidden"
-            lg="mt-2.25 block"
+            lg="block"
           >
             <p>{getPostDescription(post, 'list')}</p>
           </div>
