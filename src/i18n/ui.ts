@@ -10,8 +10,8 @@ export const ui = {
   },
   'en': {
     title: 'The Solitary Path',
-    subtitle: 'Live, Meditate, Transcend',
-    description: 'Inspired by the Rhinoceros Sutta, this is a space for integrating early Buddhist meditation into modern life, guiding your solitary path.',
+    subtitle: 'Modern Practice Following Ancient Orthodox Teachings',
+    description: 'Study of Early Buddhist scriptures, Nikāyas, Āgamas, and meditation on the path to liberation.',
     posts: 'Posts',
     tags: 'Tags',
     about: 'About',
@@ -82,8 +82,8 @@ export const ui = {
   },
   'zh': {
     title: '如犀独行',
-    subtitle: '活在当下，正念禅修，超越轮回',
-    description: '灵感源自《犀牛角经》，致力于将原始佛教禅修融入现代生活，为您的修行之路提供指引。',
+    subtitle: '依循正统古老教法的现代修行',
+    description: '原始佛法经典学习，尼柯耶，阿含经，解脱道禅修',
     posts: '文章',
     tags: '标签',
     about: '关于',
@@ -91,8 +91,8 @@ export const ui = {
   },
   'zh-tw': {
     title: '如犀獨行',
-    subtitle: '活在當下，正念禪修，超越輪迴',
-    description: '靈感源自《犀牛角經》，致力於將原始佛教禪修融入現代生活，為您的修行之路提供指引。',
+    subtitle: '依循正統古老教法的現代修行',
+    description: '原始佛法經典學習，尼柯耶，阿含經，解脫道禪修',
     posts: '文章',
     tags: '標籤',
     about: '關於',
