@@ -1,13 +1,13 @@
 ---
 title: 故鄉
 published: 1921-01-10
+draft: true
 tags:
   - 魯迅
   - 近代文學
 lang: zh-tw
 abbrlink: my-native-heath
 ---
-
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/03.webp)
 
 我冒了嚴寒，回到相隔二千餘里，別了二十餘年的故鄉去。

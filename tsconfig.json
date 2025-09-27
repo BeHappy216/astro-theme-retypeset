@@ -1,13 +1,41 @@
 {
-  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "lib": ["esnext", "dom"],
+    "target": "ESNext",
+    "jsx": "preserve",
+    "jsxImportSource": "astro",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": [
+        "src/*"
+      ]
     },
-    "allowJs": true
+    "resolveJsonModule": true,
+    // --- Base options inspired by Astro's recommended config ---
+    "allowJs": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
   },
-  "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"]
+  "include": [
+    ".astro/types.d.ts",
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.astro",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "eslint.config.mjs",
+    "src/plugins",
+    "patches"
+  ]
 }

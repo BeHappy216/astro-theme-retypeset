@@ -2,6 +2,7 @@
 title: Markdown Style Guide
 published: 2025-03-08
 updated: 2025-03-23
+draft: true
 tags:
   - Guide
 pin: 98
@@ -9,7 +10,6 @@ toc: false
 lang: en
 abbrlink: markdown-style-guide
 ---
-
 Here are some basic Markdown syntax examples and their stylistic effects in Retypeset.
 
 ## Headings
@@ -30,10 +30,15 @@ To create headings, add number signs `#` in front of a word or phrase. The numbe
 ### Output
 
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 
 ## Paragraphs
@@ -106,9 +111,7 @@ To create blockquotes, add a `>` symbol and a space before text. Blockquotes can
 
 > Don't communicate by sharing memory, share memory by communicating.
 >
-> — <cite>Rob Pike[^1]</cite>
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+> — `<cite>`Rob Pike[^1]`</cite>`
 
 ## Tables
 
@@ -125,14 +128,14 @@ To add tables, use three or more hyphens `---` to create each column's header, a
 
 ### Output
 
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
+| Italics     | Bold           | Code     |
+| ----------- | -------------- | -------- |
 | _italics_ | **bold** | `code` |
 | _italics_ | **bold** | `code` |
 
 ## Code Blocks
 
-To create code blocks, wrap your code with three backticks ```` ``` ````. You can indicate the programming language being used after the opening backticks to indicate how to color and style your code, e.g., html, javascript, css, markdown, etc.
+To create code blocks, wrap your code with three backticks `` ``` ``. You can indicate the programming language being used after the opening backticks to indicate how to color and style your code, e.g., html, javascript, css, markdown, etc.
 
 ### Syntax
 
@@ -252,20 +255,22 @@ Use three hyphens `---` or the `<hr>` tag to create a horizontal rule as shown b
 
 ### Output
 
-H<sub>2</sub>O
+H`<sub>`2`</sub>`O
 
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+X`<sup>`n`</sup>` + Y`<sup>`n`</sup>` = Z`<sup>`n`</sup>`
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+`<abbr title="Graphics Interchange Format">`GIF`</abbr>` is a bitmap image format.
 
-Good writers always check for <u title="spelling">speling</u> mistakes.
+Good writers always check for `<u title="spelling">`speling`</u>` mistakes.
 
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+Press `<kbd>`CTRL`</kbd>` + `<kbd>`ALT`</kbd>` + `<kbd>`Delete`</kbd>` to end the session.
 
-There is <del>nothing</del> no code either good or bad, but running it makes it so.
+There is `<del>`nothing`</del>` no code either good or bad, but running it makes it so.
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+Most `<mark>`salamanders`</mark>` are nocturnal, and hunt for insects, worms, and other small creatures.
 
 Use three hyphens `---` or the `<hr>` tag to create a horizontal rule as shown below.
 
 ---
+
+[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.

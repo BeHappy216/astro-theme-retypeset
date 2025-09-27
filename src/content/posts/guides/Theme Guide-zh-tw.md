@@ -2,6 +2,7 @@
 title: 主題上手指南
 published: 2025-01-26
 updated: 2025-04-13
+draft: true
 tags:
   - 部落格主題
   - 指南
@@ -9,7 +10,6 @@ pin: 99
 lang: zh-tw
 abbrlink: theme-guide
 ---
-
 Retypeset 是一款基於 [Astro](https://astro.build/) 框架的靜態部落格主題，中文名為重新編排。本文為 Retypeset 主題上手指南，主要介紹如何修改主題配置與創建新文章，來幫助你快速搭建個人部落格。
 
 ## 主題配置

@@ -1,13 +1,13 @@
 ---
 title: Rashomon
 published: 1915-11-05
+draft: true
 tags:
   - Ryunosuke Akutagawa
   - Modern Literature
 lang: en
 abbrlink: rashomon
 ---
-
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/06.webp)
 
 It happened in the evening of one day. There was a retainer who was waiting for the rain under Rashomon.

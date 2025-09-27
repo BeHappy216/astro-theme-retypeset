@@ -1,13 +1,13 @@
 ---
 title: Markdown 擴展功能
 published: 2025-04-25
+draft: true
 tags:
   - 指南
 toc: false
 lang: zh-tw
 abbrlink: markdown-extended-features
 ---
-
 本文介紹 Retypeset 主題支援的 Markdown 擴展功能，包括語法範例與效果呈現。
 
 ## 圖注

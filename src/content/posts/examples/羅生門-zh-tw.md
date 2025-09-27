@@ -1,13 +1,13 @@
 ---
 title: 羅生門
 published: 1915-11-05
+draft: true
 tags:
   - 芥川龍之介
   - 近代文學
 lang: zh-tw
 abbrlink: rashomon
 ---
-
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/06.webp)
 
 是一日的傍晚的事。有一個家將，在羅生門下待著雨住。

@@ -1,10 +1,10 @@
 ---
 title: KaTeX 数学演示
 published: 2025-04-01
+draft: true
 lang: zh
 abbrlink: katex-mathematical-demo
 ---
-
 KaTeX 是一个跨浏览器的 JavaScript 库，可在网页浏览器中渲染数学公式。其设计以快速和易用为核心，最初由可汗学院开发，后成为 GitHub 上最热门的五大项目之一。
 
 ## 群论
@@ -41,13 +41,13 @@ $$
 设函数 $f$ 在包含点 $a$ 和 $x$ 的开区间上 $(n+1)$ 次可微。那么
 
 $$
- f(x)=f(a)+f'(a)(x-a)+\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n+R_n(x)
+f(x)=f(a)+f'(a)(x-a)+\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n+R_n(x)
 $$
 
 其中
 
 $$
- R_n(x)=\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1},
+R_n(x)=\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1},
 $$
 
 对于 $a$ 和 $x$ 之间的某个 $c$。

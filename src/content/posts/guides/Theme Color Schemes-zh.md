@@ -1,13 +1,13 @@
 ---
 title: 主题配色指南
 published: 2025-04-11
+draft: true
 tags:
   - 指南
 toc: false
 lang: zh
 abbrlink: theme-color-schemes
 ---
-
 Retypeset 基于 [OKLCH](https://oklch.com/) 颜色空间来定义主题配色，默认为模拟印刷风格的黑白灰配色。
 
 为满足个性化需求，我为主题制作了一些配色方案。你可以在 [src/config.ts](https://github.com/radishzzz/astro-theme-retypeset/blob/master/src/config.ts) 中替换默认配色，并**重启开发服务器**以预览新配色。

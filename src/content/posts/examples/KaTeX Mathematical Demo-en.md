@@ -1,10 +1,10 @@
 ---
 title: KaTeX Mathematical Demo
 published: 2025-04-01
+draft: true
 lang: en
 abbrlink: katex-mathematical-demo
 ---
-
 KaTeX is a cross-browser JavaScript library that displays mathematical notation in web browsers. It puts special emphasis on being fast and easy to use. It was initially developed by Khan Academy, and became one of the top five trending projects on GitHub.
 
 ## Group Theory
@@ -41,13 +41,13 @@ $$
 Let the function $f$ be an $(n+1)$-times differentiable on an open interval containing the points $a$ and $x$. Then
 
 $$
- f(x)=f(a)+f'(a)(x-a)+\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n+R_n(x)
+f(x)=f(a)+f'(a)(x-a)+\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n+R_n(x)
 $$
 
 where
 
 $$
- R_n(x)=\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1},
+R_n(x)=\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1},
 $$
 
 for some $c$ between $a$ and $x$.

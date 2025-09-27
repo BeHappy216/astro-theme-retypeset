@@ -2,6 +2,7 @@
 title: Markdown 樣式指南
 published: 2025-03-08
 updated: 2025-03-23
+draft: true
 tags:
   - 指南
 pin: 98
@@ -9,7 +10,6 @@ toc: false
 lang: zh-tw
 abbrlink: markdown-style-guide
 ---
-
 以下是一些基本的 Markdown 語法示例，及其在 Retypeset 主題中的樣式效果。
 
 ## 標題
@@ -30,10 +30,15 @@ abbrlink: markdown-style-guide
 ### 效果
 
 # 一級標題
+
 ## 二級標題
+
 ### 三級標題
+
 #### 四級標題
+
 ##### 五級標題
+
 ###### 六級標題
 
 ## 段落
@@ -106,9 +111,7 @@ abbrlink: markdown-style-guide
 
 > 在我的後園，可以看見牆外有兩株樹，一株是棗樹，還有一株也是棗樹。
 >
-> —— <cite>《秋夜》[^1]</cite>
-
-[^1]: 《[秋夜](https://zh.wikisource.org/wiki/%E7%A7%8B%E5%A4%9C_(%E9%AD%AF%E8%BF%85))》是魯迅散文詩集《野草》中的第一首散文詩，創作於 1924 年。
+> —— `<cite>`《秋夜》[^1]`</cite>`
 
 ## 表格
 
@@ -125,14 +128,14 @@ abbrlink: markdown-style-guide
 
 ### 效果
 
-| 斜體   | 粗體     | 程式碼   |
-| ------ | ------- | ------- |
+| 斜體     | 粗體           | 程式碼     |
+| -------- | -------------- | ---------- |
 | _斜體_ | **粗體** | `程式碼` |
 | _斜體_ | **粗體** | `程式碼` |
 
 ## 程式碼區塊
 
-使用三個反引號 ```` ``` ```` 包裹程式碼，即可創建程式碼區塊。在頂部的反引號後標註語言類型，例如 html、javascript、css、markdown 等，即可實現語法高亮。
+使用三個反引號 `` ``` `` 包裹程式碼，即可創建程式碼區塊。在頂部的反引號後標註語言類型，例如 html、javascript、css、markdown 等，即可實現語法高亮。
 
 ### 語法
 
@@ -252,20 +255,22 @@ X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
 ### 效果
 
-H<sub>2</sub>O
+H`<sub>`2`</sub>`O
 
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+X`<sup>`n`</sup>` + Y`<sup>`n`</sup>` = Z`<sup>`n`</sup>`
 
-<abbr title="Graphics Interchange Format">GIF</abbr> 是一種點陣圖圖像格式。
+`<abbr title="Graphics Interchange Format">`GIF`</abbr>` 是一種點陣圖圖像格式。
 
-書籍是人類進步的<del>樓梯</del>階梯。
+書籍是人類進步的`<del>`樓梯`</del>`階梯。
 
-優秀的作家總是會仔細檢查<u title="拼寫">拚寫</u>問題。
+優秀的作家總是會仔細檢查`<u title="拼寫">`拚寫`</u>`問題。
 
-按下 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Delete</kbd> 以結束會話。
+按下 `<kbd>`Ctrl`</kbd>` + `<kbd>`Alt`</kbd>` + `<kbd>`Delete`</kbd>` 以結束會話。
 
-大多數<mark>蠑螈</mark>晝伏夜出，以昆蟲、蠕蟲等小生物為食。
+大多數`<mark>`蠑螈`</mark>`晝伏夜出，以昆蟲、蠕蟲等小生物為食。
 
 使用三個連字符 `---` 或 `<hr>` 標籤，即可創建如下分隔線。
 
 ---
+
+[^1]: 《[秋夜](https://zh.wikisource.org/wiki/%E7%A7%8B%E5%A4%9C_(%E9%AD%AF%E8%BF%85))》是魯迅散文詩集《野草》中的第一首散文詩，創作於 1924 年。
