@@ -10,7 +10,7 @@ export const ui = {
   },
   'en': {
     title: 'The Solitary Path',
-    subtitle: 'Modern Practice Following Ancient Orthodox Teachings',
+    subtitle: 'Modern Meditation Following Ancient Orthodox Teachings',
     description: 'Study of Early Buddhist scriptures, Nikāyas, Āgamas, and meditation on the path to liberation.',
     posts: 'Posts',
     tags: 'Tags',
@@ -82,7 +82,7 @@ export const ui = {
   },
   'zh': {
     title: '如犀独行',
-    subtitle: '依循正统古老教法的现代修行',
+    subtitle: '依循正统古老教法的现代禅修',
     description: '原始佛法经典学习，尼柯耶，阿含经，解脱道禅修',
     posts: '文章',
     tags: '标签',
@@ -91,7 +91,7 @@ export const ui = {
   },
   'zh-tw': {
     title: '如犀獨行',
-    subtitle: '依循正統古老教法的現代修行',
+    subtitle: '依循正統古老教法的現代禪修',
     description: '原始佛法經典學習，尼柯耶，阿含經，解脫道禪修',
     posts: '文章',
     tags: '標籤',
